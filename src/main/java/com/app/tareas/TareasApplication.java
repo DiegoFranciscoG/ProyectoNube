@@ -1,13 +1,11 @@
-package com.example.demo;
+package com.app.tareas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProyectoSpringMongoApplication {
-
+public class TareasApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(ProyectoSpringMongoApplication.class, args);
+		SpringApplication.run(TareasApplication.class, args);
 	}
-
 }
