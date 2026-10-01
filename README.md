@@ -43,8 +43,8 @@ Colección `tareas` en MongoDB.
 
 ## Ejecutar en local
 ```bash
-cp .env.example .env                  # pon tu MONGODB_URI
-cd backend && ../mvnw spring-boot:run # API en http://localhost:8080
+export MONGODB_URI="mongodb+srv://..."   # PowerShell: $env:MONGODB_URI="mongodb+srv://..."
+cd backend && ../mvnw spring-boot:run   # API en http://localhost:8080
 cd frontend && npm ci && npm run dev  # web en http://localhost:5173
 ```
 
